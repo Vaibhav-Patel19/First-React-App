@@ -1,0 +1,40 @@
+body {    
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 8px #888888;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-items > li {
+    padding: 25px;
+}
+
+.nav-logo{
+    width: 60px;
+    padding-left: 10px;
+}
+
+.main-container{
+    padding-left:15px;
+}
+
+.foot {
+    background-color: grey;
+    height: 50px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding-left: 15px;
+}
